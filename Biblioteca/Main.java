@@ -1,6 +1,6 @@
 package Biblioteca;
 import java.util.Scanner;
-import java.util.ArrayList;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.List;
@@ -71,7 +71,7 @@ public class Main {
             }
         }
     }
-    // Me salta error en este metodo
+   
     public static void ConsultarLibro(String nombre, Map<String, Libreria> lib){
         try {
             for (Map.Entry<String, Libreria> libro : lib.entrySet()) {
@@ -81,7 +81,7 @@ public class Main {
                 // con el parametro nombre
                 if(libro.getValue().BuscarLibro(nombre).getNombre().equalsIgnoreCase(nombre)){
                     System.out.println(libro.getValue().BuscarLibro(nombre).toString());
-                    break;
+                    return;
                 }
             }
         } catch (NullPointerException e) {

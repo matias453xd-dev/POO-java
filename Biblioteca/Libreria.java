@@ -1,7 +1,6 @@
 package Biblioteca;
 
 import java.util.ArrayList;
-import java.util.List;
 public class Libreria {
     // Cada libreria guardara libros de un solo genero
     String generos;
