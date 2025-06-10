@@ -3,6 +3,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 public class Gestion_notas {
     public static void main(String[] args) {
+        // PENDIENTE
         Scanner input = new Scanner(System.in);
         HashMap<Integer,String> Alumnos = new HashMap<Integer,String>();
         ArrayList<Double> notas = new ArrayList<Double>();
