@@ -62,4 +62,3 @@ public class Almacen {
         System.out.println("Producto no encontrado");
     }
 }
-
